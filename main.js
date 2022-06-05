@@ -1,7 +1,6 @@
 import http from "http";
 import fs from "fs";
 import path from "path";
-import { nextTick } from "process";
 
 const server = http.createServer((req, res) => {
   if (req.url === "/") {
